@@ -1,0 +1,18 @@
+doctype html
+html
+  title
+    Stringifier
+  body
+    h1 Your Results
+    table
+      thead
+        - @strings.each do |s|
+          th = s.to_s
+      tbody
+        - @words.each do |word|
+          tr
+            td = word.original
+            td = word.reversed
+            td = word.upcased
+            td = word.downcased
+            td = word.capitalized

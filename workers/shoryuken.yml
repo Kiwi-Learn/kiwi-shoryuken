@@ -1,0 +1,2 @@
+queues:
+  - [worker_bee, 1]
